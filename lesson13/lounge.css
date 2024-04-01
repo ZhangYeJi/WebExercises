@@ -12,10 +12,10 @@ p {
     font-size: 2rem;
 }
 body{
-	background-color: snow;
-	color: rgb(65, 105, 225);
-	color: #51c4d3;
+	background-color: #d0dfe6;
 	color: rgba(39,177,182,0.8);
-	color: #57c3c2
-;
+    color: #8076a3;
+}
+p,a {
+    <text-decoration:none>
 }
