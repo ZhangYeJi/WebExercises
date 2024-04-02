@@ -16,6 +16,6 @@ body{
 	color: rgba(39,177,182,0.8);
     color: #8076a3;
 }
-p,a {
-    <text-decoration:none>
+a {
+    text-decoration:none
 }
