@@ -1,12 +1,12 @@
 body {
         font-family: "Verdana","Geneva","Arial";
-    }
+        }
 html {
         font-size: 12px;
-    }
+        }
 h1 {
         font-size: 2.2rem;
-    }
+        }
 h2  {    
         font-size: 1.3rem;
         font-weight: normal;
@@ -17,4 +17,4 @@ blockquote {
 h1,h2 {
         color: #c60;
         border-bottom: thin dotted #888888;
-    }
+        }
