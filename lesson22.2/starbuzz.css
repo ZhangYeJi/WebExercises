@@ -48,6 +48,13 @@ h1 {
   line-height:      1.8em;
 }
 
+.allcontent {
+  width:            800px;
+  padding-top:      5px;
+  padding-bottom:   5px;
+  background-color: #675c47;
+}
+
 a:link {
   color:            #b76666;
   text-decoration:  none;
