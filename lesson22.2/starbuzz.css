@@ -49,8 +49,6 @@ h1 {
   line-height:      1.8em;
 }
 
-
-
 a:link {
   color:            #b76666;
   text-decoration:  none;
@@ -63,6 +61,11 @@ a:visited {
   border-bottom:    thin dotted #675c47;
 }
 
-.mdiv {
+.allcontent {
   width: 800px;
+  padding-top:           5px;
+	padding-bottom:        5px;
+	background-color:  #675c47;
+  margin-left:           auto;
+  margin-right:          auto;
 }
