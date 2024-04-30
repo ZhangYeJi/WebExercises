@@ -11,10 +11,6 @@ body {
     height: 108px;
 }
 
-.headerSlogan {
-    float: right;
-}
-
 .main {
     display: table-cell;
     /* 垂直对齐: 顶端对齐 */
@@ -92,8 +88,27 @@ div.talbeRow {
     display: table-row;
 }
 
-.drinks {
+div.drinks {
     display: table-cell;
     background-color: #efe5d0;
     padding: 15px;
 }
+
+.sprite-container {
+    width: 260px; /* 显示的宽度为足够露出 Logo 和 slogan 为准 */ 
+    height: 100%; /* 图片高度 */
+    overflow: hidden; /* 隐藏溢出部分 */ 
+}
+
+.header-slogan {
+    background-image: url('images/header.gif');
+	background-position: 260px 0px; /* 向左偏移 */
+    float: right;
+}
+
+.header-logo {
+	background-image: url('images/header.gif');
+	background-position-x: 0px;
+	background-position-y: 0px; /* 没有任何偏移 */
+}
+
