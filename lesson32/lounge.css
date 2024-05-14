@@ -1,12 +1,44 @@
-.biaoti h2 {
-    display: block;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 8px 0;
-    line-height: 34px;
-    color: #822433;
+.container {
+    /* width:                    970px; */
+    padding-right:            15px;
+    padding-left:             15px;
+    margin-right:             auto;
+    margin-left:              auto;
 }
+
+.biaoti h2 {
+    display:                  block;
+    font-family:              'Open Sans', sans-serif;
+    font-weight:              300;
+    margin:                   8px 0;
+    line-height:              34px;
+    color:                  #822433;
+    
+}
+
 a:link {
-    color: #333333;
-    text-decoration:  none;
-    border-bottom: none;
+    color:                  #333333;
+    text-decoration:          none;
+    border-bottom:            none;
+}
+
+.Fai a:hover {
+    color:                  #333333;
+    border-bottom:            thin solid #333333;
+}
+
+a:visited {
+    color:                  #333333;
+    text-decoration:          none;
+    border-bottom:            none;
+}
+
+.Fai {
+    font-family:              'Open Sans', sans-serif;
+    font-weight:              300;
+
+}
+
+.FRU {
+    display:                  table-cell;
 }
