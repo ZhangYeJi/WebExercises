@@ -4,7 +4,14 @@
     padding-left:             15px;
     margin-right:             auto;
     margin-left:              auto;
+    /* display:                  flex; */
 }
+
+div {
+    display:                  block;
+    unicode-bidi:             isolate;
+}
+
 
 .biaoti h2 {
     display:                  block;
@@ -22,7 +29,9 @@ a:link {
     border-bottom:            none;
 }
 
-.Fai a:hover {
+.Fai :hover,.il :hover,.Cordoglio :hover,
+.Avviso :hover,.Orientamento :hover,.Ingegneria :hover,
+.Medicina :hover,.La :hover,.Il :hover,.Aperta :hover {
     color:                  #333333;
     border-bottom:            thin solid #333333;
 }
@@ -33,12 +42,20 @@ a:visited {
     border-bottom:            none;
 }
 
-.Fai {
+.NOTIZE,.Dona,.FRU,.renwu,.diaosu,.xuexiao,.shuangren,.kaoshi,.miggio,.duoren,.jinfa {
+    padding-right:            10px;  
+    padding-left:             10px;   
+}
+
+.Fai,.il,.Cordoglio,.Avviso,.Orientamento,.Ingegneria,.Medicina,.La,.Il,.Aperta {
     font-family:              'Open Sans', sans-serif;
     font-weight:              300;
-
+    line-height:              22px;
+    font-weight:              300;
+    padding:                  20px;
 }
 
 .FRU {
-    display:                  table-cell;
+    display:                  inline-block;
 }
+
