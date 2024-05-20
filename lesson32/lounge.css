@@ -4,11 +4,12 @@
     padding-left:             15px;
     margin-right:             auto;
     margin-left:              auto;
-    /* display:                  flex; */
+    /* display:                  flex;  */
+
 }
 
 div {
-    display:                  block;
+    display:                  block; 
     unicode-bidi:             isolate;
 }
 
@@ -31,7 +32,9 @@ a:link {
 
 .Fai :hover,.il :hover,.Cordoglio :hover,
 .Avviso :hover,.Orientamento :hover,.Ingegneria :hover,
-.Medicina :hover,.La :hover,.Il :hover,.Aperta :hover {
+.Medicina :hover,.La :hover,.Il :hover,.Aperta :hover,
+.Lettera :hover,.Sapienza :hover,.Maker :hover,.Evento :hover,
+.Inaugurata :hover,.Gli :hover,.Pari :hover,.EtnoMusa :hover,.Iscrizioni :hover {
     color:                  #333333;
     border-bottom:            thin solid #333333;
 }
@@ -42,20 +45,26 @@ a:visited {
     border-bottom:            none;
 }
 
-.NOTIZE,.Dona,.FRU,.renwu,.diaosu,.xuexiao,.shuangren,.kaoshi,.miggio,.duoren,.jinfa {
+.NOTIZE,.Dona,.FRU,.renwu,.diaosu,.xuexiao,.shuangren,.kaoshi,
+.miggio,.duoren,.jinfa,.aoweiye,.dunpai,.call,.presentazione,
+.zhuzi,.huiserenwu,.shizhong,.yuedui,.toupiao {
     padding-right:            10px;  
     padding-left:             10px;   
 }
 
-.Fai,.il,.Cordoglio,.Avviso,.Orientamento,.Ingegneria,.Medicina,.La,.Il,.Aperta {
+.Fai,.il,.Cordoglio,.Avviso,.Orientamento,.Ingegneria,.Medicina,
+.La,.Il,.Aperta,.Lettera,.Sapienza,.Maker,.Evento,.Inaugurata,.Gli,.Pari,.EtnoMusa,.Iscrizioni {
     font-family:              'Open Sans', sans-serif;
     font-weight:              300;
     line-height:              22px;
     font-weight:              300;
     padding:                  20px;
 }
+/* .div1,.div2 {
+    flex:                     1;        
+} */
 
-.FRU {
-    display:                  inline-block;
-}
+/* .aoweiye,.Lettera {
+    display:                  table-cell;
+} */
 
