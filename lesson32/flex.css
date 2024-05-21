@@ -1,0 +1,46 @@
+.container1,.container2,.container3,.container4 {
+    display: flex;
+    align-items: flex-start; /* 垂直对齐 */
+}
+  
+.box {
+  width: 100%/3;
+}
+
+.left-box {
+    flex: 1;
+    margin-right: 20px;
+}
+  
+.right-container1 {
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+}
+  
+.right-top-box,
+.right-bottom-box {
+    flex: 1;
+}
+  
+.right-top-box {
+    margin-bottom: 20px;
+}
+
+.container2,.container3,.container4 {
+    display: flex;
+    flex: 1; 
+    /* box-sizing: border-box; */
+}
+
+.top-right-box,.top-right-box1,.top-right-box2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.box {
+    box-sizing: border-box;
+}

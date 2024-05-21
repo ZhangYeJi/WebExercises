@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  align-items: flex-start; /* 垂直对齐 */
+}
+
+.left-box {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.right-container {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-top-box,
+.right-bottom-box {
+  flex: 1;
+}
+
+.right-top-box {
+  margin-bottom: 20px;
+}
