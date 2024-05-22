@@ -1,3 +1,7 @@
+body {
+    background:             #f1f1f1;
+}
+
 .allcontent {
     width:                    1200px;
     /* padding-right:            15px;
@@ -25,13 +29,24 @@ div {
     
 }
 
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    border-bottom: none;
+}
+
+
 a:link {
     color:                  #333333;
     text-decoration:          none;
     border-bottom:            none;
 }
 
-.Fai :hover,.il :hover,.Cordoglio :hover,
+/* .Fai :hover,.il :hover,.Cordoglio :hover,
 .Avviso :hover,.Orientamento :hover,.Ingegneria :hover,
 .Medicina :hover,.La :hover,.Il :hover,.Aperta :hover,
 .Lettera :hover,.Sapienza :hover,.Maker :hover,.Evento :hover,
@@ -39,6 +54,11 @@ a:link {
 .Iscrizioni :hover,.Medicina :hover,.Codice :hover,.Sapienza :hover,
 .Appello :hover,.aderisce :hover,.Solidarietà :hover,
 .Costruire :hover,.Somiglianze :hover,.del :hover,.Un :hover {
+    color:                  #333333;
+    border-bottom:            thin solid #333333;
+} */
+
+p :hover {
     color:                  #333333;
     border-bottom:            thin solid #333333;
 }
@@ -55,39 +75,82 @@ a:visited {
 .Save,.siren,.wanzitou,.pintu,.yueqi,.shiguan,.bingdu {
     padding-right:            10px;  
     padding-left:             10px;   
+    padding-bottom:            0px;
+    margin-bottom:            0px;
+    border-bottom:            0px;
 }
+
 
 .Fai,.il,.Cordoglio,.Avviso,.Orientamento,.Ingegneria,.Medicina,
 .La,.Il,.Aperta,.Lettera,.Sapienza,.Maker,.Evento,.Inaugurata,.Gli,
-.Pari,.EtnoMusa,.Iscrizioni,.Medicina,.Codice,.Sapienza,.Appello,.aderisce,
+.Pari,.EtnoMusa,.Iscrizioni,.Rome,.Medicina,.Codice,.Sapienza,.Appello,.aderisce,
 .Solidarietà,.Costruire,.Somiglianze,.del,.Un {
     font-family:              'Open Sans', sans-serif;
     font-weight:              300;
     line-height:              22px;
     font-weight:              300;
-    padding:                  20px;
+    padding-left:             20px;
+    padding-right:            20px;
+    padding-bottom:           20px;
+    padding-top:              0px;
+    margin-top:               0px;
+    border-top:            0px;
+    background:             #ffffff;
 }
 
+.Fai {
+    position: relative;
+    bottom:  4px;
+    left:   8px;
+}
+
+a {
+    height: 0px;
+}
+
+p {
+    display: block;
+    margin-top: 0px;
+    text-align: center;
+} 
 
 
 .img {
-    width: 100%;
-    object-fit: cover;
-}
+    display: block;
+    margin:  0px;
+} 
 
 .bg-image-cover-center img {
+    /* flex-shrink: 0; */
     width: 570px;
     height: 482px;
 }
 
+.card-image {
+    width: 325.98px;
+    height: 326.66px;
 
-/* .bg-image-cover-center {
-    background: url("images/Dona\ il\ 5xmille\ alla\ Sapienza.jpg") no-repeat center;
+}
+
+.miggio img {
+    width: 325.98px;
+    height: 326.66px;
+}
+
+
+
+
+
+
+/*.bg-image-cover-center {
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     background-color: #822433;
+    height: 100%;
     width: 470px;
-    height: 482px;
-} */
+    height: 482px; 
+}*/
 
 
 
