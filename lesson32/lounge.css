@@ -86,32 +86,47 @@ a:visited {
 .Pari,.EtnoMusa,.Iscrizioni,.Rome,.Medicina,.Codice,.Sapienza,.Appello,.aderisce,
 .Solidarietà,.Costruire,.Somiglianze,.del,.Un {
     font-family:              'Open Sans', sans-serif;
+    font-size:                18px;
     font-weight:              300;
     line-height:              22px;
-    font-weight:              300;
     padding-left:             20px;
     padding-right:            20px;
     padding-bottom:           20px;
     padding-top:              0px;
-    margin-top:               0px;
+    /* margin-top:               0px; */
     border-top:            0px;
     background:             #ffffff;
+    
 }
 
 .Fai {
     position: relative;
     bottom:  4px;
     left:   8px;
+    width:  535px;
+    height: 84px;
+}
+
+.bg-image-cover-center {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #822433;
+    height: 100%;
 }
 
 a {
-    height: 0px;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
 }
 
 p {
-    display: block;
-    margin-top: 0px;
-    text-align: center;
+    display: inline-block;
+    /* margin-top: 0px; */
+    /* text-align: center; */
+    vertical-align: middle;
 } 
 
 
@@ -123,7 +138,7 @@ p {
 .bg-image-cover-center img {
     /* flex-shrink: 0; */
     width: 570px;
-    height: 482px;
+    height: 482px; 
 }
 
 .card-image {

@@ -1,10 +1,11 @@
-.container1,.container2,.container3,
-.container4,.container5,.container6,
-.container7,.container8,.container9 {
+.zyj-container1,.zyj-container2,.zyj-container3,
+.zyj-container4,.zyj-container5,.zyj-container6,
+.zyj-container7,.zyj-container8,.zyj-container9 {
     display: flex;
     align-items: flex-start; /* 垂直对齐 */
     justify-content: space-between;
     width: 100%;
+    overflow: hidden;
 }
 
 /* .top-right-box {
@@ -33,7 +34,7 @@
     margin-right: 20px;
 }
 
-.right-container1 {
+.zyj-right-container1 {
     flex: 2;
     display: flex;
     flex-direction: row;
@@ -48,9 +49,9 @@
     margin-bottom: 20px;
 }
 
-.container2,.container3,.container4,
-.container5,.container6,.container7,
-.container8,.container9 {
+.zyj-container2,.zyj-container3,.zyj-container4,
+.zyj-container5,.zyj-container6,.zyj-container7,
+.zyj-container8,.zyj-container9 {
     display: flex;
     flex: 1; 
     /* box-sizing: border-box; */
