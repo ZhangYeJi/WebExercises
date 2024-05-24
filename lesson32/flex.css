@@ -32,6 +32,7 @@
 .left-box {
     flex: 1;
     margin-right: 20px;
+    padding-bottom:  20px;
 }
 
 .zyj-right-container1 {
@@ -68,6 +69,10 @@
 
 }
 
+a {
+    align-items: center;
+}
+
 .box {
     box-sizing: border-box;
 }
@@ -83,4 +88,13 @@
     padding-left: 10px;
     padding-right: 10px;
 
+}
+
+.zyj-container10 {
+    display: flex;
+}
+
+.TUTTI {
+    margin-left: auto;
+    align-self: center;
 }
