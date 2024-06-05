@@ -1,6 +1,9 @@
 body {
     background:             #fff;
 }
+
+
+
 /* 
 .allcontent {
     width:                    1200px;
@@ -25,8 +28,7 @@ body {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    /* font-weight: lighter; */
-    font-weight: 10;
+    
 }
 
 div {
@@ -37,7 +39,7 @@ div {
 
 .z-biaoti h2 {
     display:                  block;
-    font-family:              'Open Sans', sans-serif;
+    font-family:              'Open Sans Light', sans-serif;
     font-weight:              300;
     font-size:                28px;
     margin:                   8px 0;
@@ -124,7 +126,7 @@ div {
 .z-La,.z-Il,.z-Aperta,.z-Lettera,.z-Sapienza,.z-Maker,.z-Evento,.z-Inaugurata,.z-Gli,
 .z-Pari,.z-EtnoMusa,.z-Iscrizioni,.z-Rome,.z-Medicina,.z-Codice,.z-Sapienza,.z-Appello,.z-aderisce,
 .z-Solidarietà,.z-Costruire,.z-Somiglianze,.z-del,.z-Un,.z-Sapienza2 {
-    font-family:              'Open Sans', sans-serif;
+    font-family:              'Open Sans Light', sans-serif;
     font-size:                18px;
     font-weight:              300;
     line-height:              22px;
@@ -200,6 +202,7 @@ a {
     /* margin-top: 0px; */
     /* text-align: center; */
     vertical-align: middle;
+    font-family: "Open Sans Light", sans-serif;
 } 
 
 
@@ -231,6 +234,7 @@ a {
 
 .z-allnews a {
     width: 380px;
+    font-family: "Open Sans Light", sans-serif;
 }
 
 .z-chang-card-image {
@@ -257,7 +261,7 @@ a {
     text-transform: uppercase;
     font-weight: 300px;
     margin: 8px 0;
-    font-family:             'Open Sans', sans-serif;
+    font-family:             'Open Sans Light', sans-serif;
     position: relative;
     left: 1000px;
 }

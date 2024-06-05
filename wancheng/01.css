@@ -1,7 +1,7 @@
 .c-tou{
 	color: rgb(130, 36, 51);
 	display:block;
-	font-family: "Open Sans", sans-serif;
+	font-family: "Open Sans Light", sans-serif;
 	font-size: 30px;
 	font-weight: 300;
 	height: 34px;
@@ -16,7 +16,7 @@
     font-size: 50px;
 	font-weight: 300;
 	height: 70px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans Light', sans-serif;
 	line-height: 10px;
 	display: inline-block; 
 	/* margin-bottom: 10px; */
@@ -27,7 +27,7 @@
     font-size: 18px;
 	font-weight: 300;
 	line-height: 0px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans Light', sans-serif;
 	display: inline-block;
 	/* margin-bottom: 10px; */
 	position: relative;
@@ -40,7 +40,7 @@
     font-size: 18px;
 	font-weight: 300;
 	line-height: 5px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans Light', sans-serif;
 	margin-top: -15px;
 	margin-bottom: 30px;
 }
@@ -72,7 +72,7 @@ margin-right: 1.75%;
 
 .c-content1,.c-content2,.c-content3,.c-content4,.c-content5,.c-content6{
 	color: #333;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans Light', sans-serif;
 	font-size: 14px;
 	font-weight: 300;
 	height: auto;
@@ -109,7 +109,7 @@ margin-right: 1.75%;
 .c-jt1{
 	display: inline-block;
 	line-height: 1.5em;
-	margin-left: 25px;
+	margin-left: 18px;
 	
 }
 
@@ -131,9 +131,9 @@ margin-right: 1.75%;
 	background-color: #822433;
 	line-height: 34px;
 	text-transform: uppercase;
-	font-weight: 320px;
+	font-weight: 300px;
 	margin: 8px 0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans Light', sans-serif;
 	/* position: relative; */
 	padding-left: 20px;
 	font-size: 20px; 
@@ -143,6 +143,7 @@ margin-right: 1.75%;
 	position: relative;
 	top: 8px;
 	right: 9px;
+	font-family: 'Open Sans Light', sans-serif;
 }
 
 /* .c-baizi{
@@ -162,7 +163,7 @@ margin-right: 1.75%;
 
 .c-TUTTI a:link{
 	color: #fff;
-	font-family: "Open Sans", sans-serif;
+	font-family: "Open Sans Light", sans-serif;
 	text-decoration: none;
 }
 
@@ -171,7 +172,7 @@ margin-right: 1.75%;
 .c-social{
 	color: #fff;
 	/* display: block; */
-	font-family: "Open Sans", sans-serif;
+	font-family: "Open Sans Light", sans-serif;
 	font-size: 30px;
 	font-weight: 300;
 	/* padding-left: 180px; */
@@ -179,7 +180,7 @@ margin-right: 1.75%;
 	display: inline-block;
 	margin-left: 20px;
 	position: relative;
-	right: 15px;
+	right: 40px;
 }
 
 
@@ -188,6 +189,8 @@ margin-right: 1.75%;
 	margin-left: 4px;
 	margin-right: 4px;
 	padding-bottom: 0%;
+	position: relative;
+	right: 40px;
 }
 .c-sszz{
 	float: left;
@@ -204,31 +207,52 @@ margin-right: 1.75%;
 
 .c-zzz1,.c-zzz2,.c-zzz3{
 	margin-right: 20px;
+	position: relative;
+	top: 85px;
 }
 
 .c-zzz4{
 	position: relative;
-	top: 100px;
-	left: -55px;
+	top: 85px;
+	left: -50px;
 }
+
+.c-zzz1{
+    position: relative;
+	left: -285px;
+}
+
+.c-zzz2{
+    position: relative;
+	left: -285px;
+}
+.c-zzz3{
+    position: relative;
+	left: -285px;
+}
+.c-zzz4{
+	margin-top: -400px;
+	right: 70px;
+	float: right;
+}
+
 
 
 
 .c-baikuang1,.c-baikuang2,.c-baikuang3,.c-baikuang4{
 	background-color: #fff;
 	height: 380px; 
-	width: 270px;
+	width: 280px;
 	display: inline-block; 
 	/* margin-left: 100px; */
 	margin-top: 20px;
-
 	/* margin-left: 180px;  */
 }
 
-/* .c-baikuang4 {
+.c-bai-content{
 	position: relative;
-	top: 60px;
-} */
+	left:5px;
+}
 
 .yuan1 img,.yuan2 img,.fang1 img,.fang2 img{
 	/* height: 25px; */
@@ -267,17 +291,19 @@ margin-right: 1.75%;
 	padding-left: 15px;
 	height: 25px;
 	color: #333333;
+	font-family: 'Open Sans Light', sans-serif;
 }
 
 .c-xiaoxia1,.c-xiaoxia2,.c-xiaoxia3,.c-xiaoxia4{
 	font-size: 11px;
 	padding-left: 15px;
 	padding-top: 15px;
+	font-family: 'Open Sans Light', sans-serif;
 	}
 	
 
 .c-xiaoxia1 a,.c-xiaoxia2 a,.c-xiaoxia3 a,.c-xiaoxia4 a{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans Light', sans-serif;
 	color:#333333;
 }
 	
@@ -295,10 +321,11 @@ margin-right: 1.75%;
 }
 
 .c-zuixiazi1,.c-zuixiazi2,.c-zuixiazi3,.c-zuixiazi4{
-	font-size: 11px;
+	font-size: 12px;
 	padding-left: 15px;
 	position: relative;
 	top: 10px;
+	font-family: "Open Sans Light", sans-serif;
 }
 
 
@@ -313,23 +340,12 @@ margin-right: 1.75%;
 	margin-right: auto; */
 	width: 1200px;
 	height: 500px;
-	/* margin: 0 auto; */
-	/* min-width: 1200px;
-	min-height: 450px; */
 	background-color: #fff;
-	/* position: relative; */
-	/* left: 245px; */
-	/* justify-content: center;
-	align-items: center; */
-	/* padding-left: auto;
-	padding-right: auto; */
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
 	left: 50px;
 }
-
-
 
 .c-part2 {
 	
@@ -349,23 +365,19 @@ margin-right: 1.75%;
 	color: #fff;
 	font-size: 18px;
 	font-family: 'Open Sans', sans-serif;
-	/* top: 700x; */
-	/* right: 1160px; */
-	/* padding-left: 735px; */
-	/* padding-right: 20px;
-	padding-top: 20px; */
 	display: inline-block;
 	position: relative;
-	right: 610px;
-	/* top:-20px; */
-	top:530px;
+	right: 300px;
+	top:-300px; 
+	/* top:530px; */
 	/* clear: left; */
 	/* padding-left:10px;	 */
 }
 
 .c-two p{
 	position: relative;
-	top:-3px;
+	top:820px;
+	left: -340px;
 }
 
 
@@ -373,18 +385,21 @@ margin-right: 1.75%;
 	display: inline-block;
 	/* padding-top:80px;
 	padding-bottom: 50px; */
-	top: 100px;
+	/* top: 100px; */
 	line-height: 1.5em;
 	/* margin-left: 25px; */
 	/* margin-top: 20px; */
 	position: relative;
 	/* margin-left: 25px; */
-	top: 470px;
-	right: 540px;
+	top: 810px;
+	right: 1630px;
 }
 
 .c-jt2 img {
 	width: 45px;
+	position: relative;
+	top:-345px;
+	left: 1060px;
 }
 
 .sszz{
@@ -397,7 +412,7 @@ margin-right: 1.75%;
 	/* left: 600px; */
 	margin-left: auto;
 	margin-right: auto;
-	
+
 }
 
 .c-part2-c{
@@ -414,21 +429,3 @@ margin-right: 1.75%;
 	margin-left: 0px;
 } */
 
-.c-zzz1{
-    position: relative;
-	left: -250px;
-}
-
-.c-zzz2{
-    position: relative;
-	left: -250px;
-}
-.c-zzz3{
-    position: relative;
-	left: -250px;
-}
-.c-zzz4{
-	margin-top: -400px;
-	right: 70px;
-	float: right;
-}
